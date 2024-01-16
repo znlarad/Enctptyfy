@@ -29,7 +29,7 @@ def decrypt_pass(encrypted_text):
     
     current_numeric = ""
     
-    for i in range(0, len(encrypted_text), 2):  # Change the step size to consider pairs of numbers
+    for i in range(0, len(encrypted_text), 2):  
         pair = encrypted_text[i:i + 2]
         
         current_numeric = ""
